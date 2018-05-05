@@ -4,8 +4,10 @@
 A Perl script that creates a table in a database, seeds the table with data from a local .csv file, and prints table contents to the command line.
 
 ## Getting started (w/ Text::CSV_XS module):
-1. Install Text::CSV_XS module: **sudo cpan Text::CSV_XS**
-2. Run App: **perl access.pl**
+1. Clone this repository: **git clone https://github.com/EJM6234/perl-sql-exercise.git**
+2. Change directories: **cd perl-sql-exercise**
+3. Install Text::CSV_XS module: **sudo cpan Text::CSV_XS**
+4. Run App: **perl access.pl**
 
 _If you don't want to install the Text::CSV_XS module, run the simple version with:_ **perl access2.pl**
 
