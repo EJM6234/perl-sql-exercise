@@ -9,7 +9,7 @@ A Perl script that creates a table in a database, seeds the table with data from
 3. Install Text::CSV_XS module: **sudo cpan Text::CSV_XS**
 4. Run App: **perl access.pl**
 
-_If you don't want to install the Text::CSV_XS module, run the simple version with:_ **perl access2.pl**
+_If you don't want to install the Text::CSV_XS module, skip step 3 and run the app with:_ **perl access2.pl**
 
 ## Notes:
 I decided to handle the database/table creation and population inside of the Perl script. I believe the most efficient and dynamic way of handling the data, for my purposes, is writing it to a .csv file, dropping/re-creating the table and reading the .csv file each time the script is run. If you don't care to install the dependency, I included an additional script that hard-codes the data into an SQL INSERT statement. I used Perl's documentation and some answers from Stack Overflow and PerlMonks to complete this project.
